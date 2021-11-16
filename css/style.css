@@ -355,10 +355,7 @@ iframe{
   overflow: hidden;
   position: relative;
 }
-/* .part-container #hdpart{
-  height: 135px ;
-  margin-top: -50px;
-} */
+
 .part-container .parten{
   position: absolute;
   width: 100%;
@@ -453,4 +450,14 @@ iframe{
 }
 .nav-item.active .nav-link,.nav-item:hover .nav-link{
 color: #000!important ;
+}
+
+
+
+
+
+.dropdown-item ~ .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  margin-left: 15px;
 }
